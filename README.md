@@ -21,7 +21,7 @@ A Java-based desktop fitness application that helps users manage workouts, track
 
 ## 🎥 Demo Video
 
-[▶️ Watch Demo Video](./Home%20Workout%20App(Video).mp4)
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1V3KC_-Uy3dEv8I8fZQbfuwuT5J_n-70F/view?usp=sharing)
 
 ---
 
