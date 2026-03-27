@@ -25,3 +25,6 @@ replay_pid*
 
 # Data File
 UserData.txt
+
+# Target Not Select
+target/
