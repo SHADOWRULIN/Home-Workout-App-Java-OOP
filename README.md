@@ -1,69 +1,92 @@
-# 🏋️‍♂️ Home Workout Application
-### Object-Oriented Programming | University Milestone Project (UIT)
+## 🏋️‍♂️ Home Workout Application
 
-The **Home Workout Application** is a Java-based desktop tool designed to help health-conscious individuals manage their fitness journeys from home. This project demonstrates the application of OOP principles such as encapsulation, inheritance, and modular GUI design using the Java Swing framework.
+### Object-Oriented Programming Project (UIT)
 
----
-
-## 🚀 Key Features
-- **🔐 Secure User Portal:** Integrated login and signup system for personal profile management.
-- **⚖️ BMI Calculator:** Instant Body Mass Index calculation with real-time health status feedback (Underweight, Normal, Overweight).
-- **🎯 Personalized Goals:** Tailored exercise plans based on user-selected goals:
-  - **Gain Weight:** Strength and muscle-building routines.
-  - **Lose Weight:** High-intensity cardio and fat-burning plans.
-- **📅 Weekly Routines:** Structured day-by-day exercise schedules.
-- **✨ Motivational Engine:** Built-in quotes and tips to keep users engaged and consistent.
+A Java-based desktop fitness application that helps users manage workouts, track BMI, and stay motivated — built using **Object-Oriented Programming principles** and **Java Swing GUI**.
 
 ---
 
-## 🏗️ Technical Architecture
-The project follows a modular design, separating the GUI layers from the backend logic:
+## 📸 Application Preview
 
-- `Fittnesstracker.java`: Main entry point and application lifecycle manager.
-- `BMICalculator.java`: Logic for health assessment algorithms.
-- `ExercisePage.java`: Dynamic UI for displaying workout lists and timers.
-- `UserInfoPage.java`: Handles user data persistence and profile display.
+### 🏠 Home Screen
+![Home](assets/home.png)
+
+### 🔐 Login Page
+![Login](assets/login.png)
+
+### 📋 Menu Dashboard
+![Menu](assets/menu.png)
+
+---
+
+## 🎥 Demo Video
+
+[▶️ Watch Demo Video](./Home%20Workout%20App(Video).mp4)
+
+---
+
+## 🚀 Features
+
+* 🔐 **User Authentication** (Login / Signup)
+* ⚖️ **BMI Calculator**
+* 🎯 **Personalized Workout Plans**
+* 📅 **Weekly Exercise Schedule**
+* ✨ **Motivational Tips & UI**
+
+---
+
+## 🏗️ Project Structure
+
+```
+src/main/java/com/mycompany/fttnesstracker/
+```
+
+* `Fittnesstracker.java` → Entry point
+* `SecondPage.java` → Login/Signup
+* `MenuPage.java` → Main dashboard
+* `ExercisePage.java` → Workout display
+* `BMICalculator.java` → Health logic
 
 ---
 
 ## 🛠️ Tech Stack
-- **Language:** Java
-- **Build Tool:** Maven
-- **UI Framework:** Java Swing / AWT
-- **Persistence:** File-based storage (`UserData.txt`)
+
+* Java
+* Maven
+* Swing / AWT
 
 ---
 
-## ⚙️ Installation & Setup
-1. **Clone the repository:**
-   
-   ```bash
-   
-   git clone https://github.com/SHADOWRULIN/Home-Workout-App-Java-OOP.git
+## ⚙️ How to Run (IMPORTANT)
 
-2.  **Open in IDE:** Import the project as a Maven project in NetBeans, IntelliJ, or Eclipse.
-3.  **Run Application:** Execute `Fittnesstracker.java` to launch the welcome screen.
+### Using Maven:
 
------
+```bash
+mvn clean compile
+mvn exec:java -Dexec.mainClass="com.mycompany.fttnesstracker.Fittnesstracker"
+```
 
-## 📱 Visual Demo
+---
 
-> **Note:** Check out the full demo video `Home Workout App(Video).mp4` in the root directory for a complete walkthrough\!
+## 📂 Data Storage
 
------
+User data is stored locally in:
 
-## 👤 Contributors
+```text
+UserData.txt
+```
 
-This project was a collaborative effort by:
+---
 
-  - **Muhammad Saim Ul Haq** (24sp-006-cs)
-  - **Hassan ul Arfeen** (24sp-010-cs)
-  - **Fahaz Khan** (24sp-047-cs)
-  - **Muhammad Fawwad** (24sp-035-cs)
+## 👤 Author
+**Muhammad Fahaz Khan**
+*CS Undergraduate at UIT University*
 
------
+- **GitHub:** [@SHADOWRULIN](https://github.com/SHADOWRULIN)
+- **LinkedIn:** [Fahaz Khan](https://www.linkedin.com/in/muhammad-fahaz-khan-85b805293/)
+
+---
 
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-**Would you like me to show you how to link your project report and your demo video directly in the README so they open with a single click?**
