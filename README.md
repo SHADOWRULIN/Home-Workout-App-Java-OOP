@@ -2,7 +2,7 @@
 
 ### Object-Oriented Programming Project (UIT)
 
-A Java-based desktop fitness application that helps users manage workouts, track BMI, and stay motivated — built using **Object-Oriented Programming principles** and **Java Swing GUI**.
+A Java-based desktop fitness application that helps users manage workouts, track BMI, and stay motivated built using **Object-Oriented Programming principles** and **Java Swing GUI**.
 
 ---
 
